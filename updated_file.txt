@@ -1,0 +1,24 @@
+In this file I will be saving all the vim commands
+
+1. When you open a file using 'nvim my_file.txt' you will be in normal mode. In normal mode we can move around, but we cannot edit the file.
+2. Press Esc to enter in normal mode. Press : in normal mode to enter command mode where you can type commands.
+3. :q command is used to exit from vim and q! to exit without saving changes.
+4. :w command is used to save changes(or write data) to a file.
+5. :wq command is used to save and exit from vim.
+6. Press i in command mode to enter again in Insert mode. While in command mode you can also press shift + a to enter in insert mode. This way your cursor
+will be at the end of the current line.
+7. To undo a change go to command mode and press u.
+8. While in command mode, press 0 to move the cursor to the beginning of the line, and $ to move to the end of the line.
+9. A buffer is an empty file or an existing file that's open and ready to receive your input.
+10. Press x in normal mode to delete the character where you cursor is.
+11. Press d twice (dd) in succession in normal mode to delete the entire line where your cursor is.
+12. h -> Left, l -> Right, j -> Down, k -> Up , in normal mode to move the cursor.
+13. :r example.txt -> Opening another file in the current buffer. This will add the content where your cursor is.
+
+This is a sample text file created using PowerShell.
+This is some sample text written here.
+
+Command to create a file:
+Set-Content -Path .\example.txt -Value "This is a sample text file created using PowerShell."
+
+//This content will be on the updated file.
